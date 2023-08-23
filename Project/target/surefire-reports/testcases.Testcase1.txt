@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testcases.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 9.309 s <<< FAILURE! - in testcases.Testcase1
-beforeMethod(testcases.Testcase1)  Time elapsed: 8.583 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 1.588
-  (Session info: chrome=113.0.5672.63)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.20'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d4069eaca474ce8ea015a34ad8486ba2, get {url=https://www.abhibus.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.WeCxrs}, goog:chromeOptions: {debuggerAddress: localhost:45729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 113.0.5672.63, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d4069eaca474ce8ea015a34ad8486ba2
-	at testcases.Testcase1.beforeMethod(Testcase1.java:294)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 70.926 s - in testcases.Testcase1

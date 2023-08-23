@@ -114,7 +114,7 @@ public class Testcase1 extends Base
             driver.manage().window().maximize();
             driver.findElement(By.linkText("Trains")).click();
             log.info("Redirected to Train booking page");
-            Thread.sleep(1000);
+            //Thread.sleep(1000);
 		    Assert.assertTrue(driver.getCurrentUrl().contains("trains"));
             log.info("Asserted the URL contains keyword of Train");
             driver.findElement(By.xpath("//div/a/img[@alt='Abhibus']"));
@@ -127,7 +127,7 @@ public class Testcase1 extends Base
             Assert.assertTrue(linkElement.isDisplayed()); // or linkElement.isEnabled()
             log.info("Page asserted for having the keyword Login/Signup with OTP ");
             test.pass("Test passed successfully");
-            Thread.sleep(1000);
+            //Thread.sleep(1000);
         }   
 
         catch (Exception ex) {
@@ -183,7 +183,7 @@ public class Testcase1 extends Base
             String optionXpath = "//ul/li[contains(text(),'" + Departure + "')]";
             WebElement departureOption = driver.findElement(By.xpath(optionXpath));
             if (departureOption.isDisplayed()) {
-                Thread.sleep(1000);
+                //Thread.sleep(1000);
                 departureOption.click();
                 }
                 log.info("Departure location captured");
@@ -197,7 +197,7 @@ public class Testcase1 extends Base
             WebElement desoption = driver.findElement(By.xpath(optionXpath1));
 
             if (desoption.isDisplayed()) {
-            Thread.sleep(1000);
+            //Thread.sleep(1000);
                 desoption.click();
                 }
             log.info("Destination location captured");
@@ -219,7 +219,7 @@ public class Testcase1 extends Base
            WebElement searchLink = driver.findElement(By.xpath("//div/a[contains(text(),'Search')]"));
            searchLink.click();
            log.info("Search clicked");
-           Thread.sleep(3000);
+           //Thread.sleep(3000);
             String currenturl = driver.getCurrentUrl();
            Assert.assertTrue(currenturl.contains("Mumbai") && currenturl.contains("Chennai"), "Page URL doesn't contain both 'Bangalore' and 'Coimbatore' keywords");
             test.pass("Test passed successfully");
@@ -260,7 +260,7 @@ public class Testcase1 extends Base
             WebElement desoption4 = driver.findElement(By.xpath(optionXpath4));
             desoption4.click();
              log.info("Destination place Captured");
-            Thread.sleep(2000);
+            //Thread.sleep(2000);
             String dateValue1 = "28-09-2023";
             String elementId1 = "datepicker1";
             JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;  
@@ -272,12 +272,12 @@ public class Testcase1 extends Base
            WebElement searchLink1 = driver.findElement(By.xpath("//div/a[contains(text(),'Search')]"));
            searchLink1.click();
             log.info("Search click");
-           Thread.sleep(3000);
+           //Thread.sleep(3000);
            String currenturl1 = driver.getCurrentUrl();
            Assert.assertTrue(currenturl1.contains("Bangalore") && currenturl1.contains("Coimbatore"), "Page URL doesn't contain both 'Bangalore' and 'Coimbatore' keywords");  
             log.info("Final page url Asserted");
             test.pass("Test passed successfully");
-            Thread.sleep(1000);
+            //Thread.sleep(1000);
         }   
 
          catch (Exception ex) {

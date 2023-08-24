@@ -1,0 +1,10 @@
+Aug 24, 2023 11:38:10 AM testcases.Testcase1 Tc001
+INFO: Browser launched
+Aug 24, 2023 11:38:11 AM testcases.Testcase1 Tc001
+INFO: Redirected to Train booking page
+Aug 24, 2023 11:38:12 AM testcases.Testcase1 Tc001
+INFO: Asserted the URL contains keyword of Train
+Aug 24, 2023 11:38:18 AM testcases.Testcase1 Tc001
+INFO: Navigated back to homepage
+Aug 24, 2023 11:38:30 AM testcases.Testcase1 afterMethod
+INFO: Browser closed
